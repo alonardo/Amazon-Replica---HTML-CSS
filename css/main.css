@@ -1,0 +1,166 @@
+*{margin:0px; padding: 0px;
+}
+
+body{
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    width:350px;
+    padding-bottom: 20px;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    height:75px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    align-content: center;
+    padding: 20px;
+    gap:20px;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+
+#continue{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgb(244, 222, 99);
+}
+
+#continue:hover {
+    background-color: rgb(241, 205, 0);
+    color: black
+  }
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#sign-in{
+    display: flex;
+    justify-content: center;
+}
+
+.new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1px;    
+    padding: 30px 0px 20px 0px;
+}
+
+.new hr{
+    width: 100%;
+}
+
+.container p{
+    font-size: smaller;
+}
+
+.new p{
+    white-space: nowrap;
+}
+
+.account{
+    width: 100%;
+    background-color: rgba(220, 211, 211, 0.444);
+}
+
+.account:hover{
+    background-color: rgba(88, 83, 83, 0.178);
+    color: black
+  }
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 5px;
+    font-size: small;
+    height:100;
+}
+
+footer{
+    background: #FFFFFF;
+    background: -moz-linear-gradient(bottom, #FFFFFF 0%, #ffffff 100%);
+    background: -webkit-linear-gradient(bottom, #FFFFFF 0%, #e8e8e8 100%);
+    background: linear-gradient(to top, #FFFFFF 0%, #efefef 100%);
+    padding-bottom: 5px;
+    padding-top: 25px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    font-size: x-small;
+    padding-top: 5px;
+}
+
+.arrow{
+    display: flex;
+    
+}
+
+.arrow p{
+    padding-left: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
+
+a{
+    text-decoration: none;
+    color: #0099DC;
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .sign{
+    color: rgb(255, 255, 255); font-size: 29px; line-height: 29px; padding: 6px; border-radius: 10px; 
+    font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal;
+    text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); 
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
+
+.sign{
+    background: #1C6EA4; 
+}
+.sign{
+    background: #144E75; } */
+
+
